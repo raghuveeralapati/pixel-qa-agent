@@ -22,6 +22,24 @@ Core Modules:
 - Comparison Engine (Pixel + SSIM)
 - Utility Layer (Image Processing)
 
+## 🌳 Branching Strategy
+
+This repository follows a structured branching model to support scalable development and maintain code stability.
+
+### Branch Structure
+- `main` → Stable, production-ready code (default branch)
+- `dev` → Active development and testing
+- `feature/*` → New features and enhancements
+- `hotfix/*` → Critical bug fixes
+
+### Workflow
+1. New features are created from `dev` branch  
+2. Feature branches are merged into `dev` after testing  
+3. Stable releases are merged from `dev` to `main`  
+4. Hotfix branches are created from `main` for urgent fixes  
+
+This strategy ensures clean version control, stable releases, and professional repository management.
+
 ## 📂 Project Structure
 ```
 pixel-qa-agent/
