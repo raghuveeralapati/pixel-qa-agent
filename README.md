@@ -1,4 +1,4 @@
-# 🚀 Agentic Visual Validation AI Agent
+## 🚀 Agentic Visual Validation AI Agent
 
 An intelligent AI agent for pixel-to-pixel image comparison, visual regression detection and OCR-aligned validation workflows.  
 Designed for QA automation, AI evaluation pipelines and enterprise-grade visual testing systems.
@@ -26,13 +26,13 @@ Core Modules:
 
 This repository follows a structured branching model to support scalable development and maintain code stability.
 
-### Branch Structure
+## Branch Structure
 - `main` → Stable, production-ready code (default branch)
 - `dev` → Active development and testing
 - `feature/*` → New features and enhancements
 - `hotfix/*` → Critical bug fixes
 
-### Workflow
+## Workflow
 1. New features are created from `dev` branch  
 2. Feature branches are merged into `dev` after testing  
 3. Stable releases are merged from `dev` to `main`  
