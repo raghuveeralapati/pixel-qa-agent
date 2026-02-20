@@ -38,7 +38,7 @@ This repository follows a structured branching model to support scalable develop
 3. Stable releases are merged from `dev` to `main`  
 4. Hotfix branches are created from `main` for urgent fixes  
 
-This strategy ensures clean version control, stable releases, and professional repository management.
+This strategy ensures clean version control, stable releases and professional repository management.
 
 ## 📂 Project Structure
 ```
